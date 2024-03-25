@@ -1,0 +1,67 @@
+body {
+    font-family: Lato, "Helvetica Neue", Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-size: 15px;
+    background-color: #232322;
+    font-weight: 400;
+}
+
+.card {
+    width: 470px;
+    background-color: #141414;
+    border-radius: 15px;
+    text-align: center;
+    margin: 50px;
+}
+
+#logo {
+    width: 60%;
+    margin-top: 30px;
+}
+
+input {
+    width: 60%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border-style: none;
+}
+
+.card .checkbox-container {
+
+    display: flex;
+    align-items: center;
+}
+
+.card .checkbox-container input {
+    margin-right: 0px;
+}
+
+.card .checkbox-container label {
+    color: white;
+    font-size: 0.9em;
+    position: relative;
+    right: 125px;
+}
+
+button {
+    width: 60%;
+    padding: 10px;
+    background-color: #d9534f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+#forgot-password {
+    color: #909090;
+    display: block;
+    margin-bottom: 50px;
+}
